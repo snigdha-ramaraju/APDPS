@@ -1,0 +1,31 @@
+{
+    "timestamp": "2026-02-23 15:45:21.729434",
+    "problem_type": "Regression",
+    "results": {
+        "Best Model": "Random Forest Regressor",
+        "Train Score": 0.8955,
+        "Test Score": 0.3695,
+        "R2 Score": 0.3695,
+        "MSE": 848.7257,
+        "MAE": 20.0228,
+        "Performance Grade": "Needs Improvement",
+        "Overfitting Detected": true
+    },
+    "model_comparison": [
+        {
+            "Model": "Linear Regression",
+            "Cross-Validation Score": 0.0282
+        },
+        {
+            "Model": "Random Forest Regressor",
+            "Cross-Validation Score": 0.2577
+        }
+    ],
+    "preprocessing_report": {
+        "Original Features": 4,
+        "Categorical Columns Encoded": 4,
+        "Low Variance Features Removed": 0,
+        "Final Feature Count": 4,
+        "Scaling Applied": "StandardScaler"
+    }
+}
